@@ -9,7 +9,7 @@ import { ethers } from 'ethers';
 import logger from './utils/logger.js';
 
 
-const INFURA_PROJECT_ID = 'eb8edd883536448987c37c5a1a55da96'; // easier to test without .env file
+const INFURA_PROJECT_ID = 'eb8edd883536448987c37c5a1a55da96'; // easier to test without .env file notsecure this way
 const provider = new ethers.WebSocketProvider(`wss://mainnet.infura.io/ws/v3/${INFURA_PROJECT_ID}`);
 
 const app = express();

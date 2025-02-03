@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/ginev91/eth-monitor-js.git
 cd eth-monitor
 npm install
 npm run dev 
